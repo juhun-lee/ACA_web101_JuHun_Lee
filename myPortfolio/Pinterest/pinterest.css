@@ -1,0 +1,22 @@
+p {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* div {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+} */
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+  }
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
