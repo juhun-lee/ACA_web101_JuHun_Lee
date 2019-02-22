@@ -1,0 +1,135 @@
+
+.box1 {
+    font-size: 12px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    margin: auto;  
+}
+/* 
+.box1:hover {
+    font-size: 12px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    margin: auto;
+} */
+
+.box2 {
+    font-size: 12px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    margin: auto;
+}
+/* 
+.box2:hover {
+    font-size: 12px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    margin: auto;
+} */
+
+.container {
+    margin-top: 100px;
+}
+
+.container:hover :nth-child(odd) {
+  -webkit-transform: scale(2,2) translate(300px) rotate(720deg);
+  -o-transform: scale(2,2) translate(300px) rotate(720deg);
+  -ms-transform: scale(2,2) translate(300px) rotate(720deg);
+  transform: scale(2,2) translate(300px) rotate(720deg);
+  transition: all 2s;
+
+  margin-bottom: 10px;
+}
+
+.container:hover :nth-child(even) {
+  -webkit-transform: scale(0.5,0.5) translate(-1300px) rotate(-720deg);
+  -moz-transform: scale(0.5,0.5) translate(-1300px) rotate(-720deg);
+  -ms-transform: scale(0.5,0.5) translate(-1300px) rotate(-720deg);
+  transform: scale(0.5,0.5) translate(-1300px) rotate(-720deg);
+  transition: all 2s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#red.box1 {
+    background: red;
+    margin-top: 10px;
+    transition: all 2s;
+    
+}
+
+#orange.box2 {
+    background: orange;
+    transition: all 2s;
+}
+
+#yellow.box1 {
+    background: yellow;
+    transition: all 2s;
+}
+
+#green.box2 {
+    background: green;
+    transition: all 2s;
+}
+
+#blue.box1 {
+    background: blue;
+    transition: all 2s;
+}
+
+#purple.box2 {
+    background: purple;
+    transition: all 2s;
+}
+
+#salmon.box1 {
+    background: salmon;
+    transition: all 2s;
+}
+
+#pink.box2 {
+    background: pink;
+    transition: all 2s;
+}
+
+#lightyellow.box1 {
+    background: lightyellow;
+    transition: all 2s;
+}
+
+#lightgreen.box2 {
+    background: lightgreen;
+    transition: all 2s;
+}
+
+#aqua.box1 {
+    background: aqua;
+    transition: all 2s;
+}
+
+#midnightblue.box2 {
+    background: midnightblue;
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+
